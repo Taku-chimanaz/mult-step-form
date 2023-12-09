@@ -1,0 +1,106 @@
+.personal-form-container {
+    padding: 1.5em 2em;
+
+}
+
+.personal-form__heading {
+    color: hsl(213, 96%, 18%);
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.personal-form__details {
+    font-size: .8rem;
+    color: hsl(231, 11%, 63%);
+    margin-bottom: 2em;
+}
+
+
+.personal-form {
+    width: 100%;
+}
+
+label {
+    font-size: .8rem;
+    color: hsl(213, 96%, 18%);
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.email-input-contents,
+.phone-input-contents,
+.name-input-contents {
+    margin-bottom: 1.5em;
+}
+
+.email-input-container,
+.phone-input-container,
+.name-input-container {
+    padding: .5em;
+    border: 1px solid hsl(231, 11%, 63%);
+    border-radius: 5px;
+}
+
+.email-input-container>input,
+.phone-input-container>input,
+.name-input-container>input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline-width: 0;
+}
+
+.personal-back-next-btns-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 5em;
+}
+
+button.back,
+button.next {
+    border: none;
+    font-weight: 700;
+}
+
+button.back {
+    text-transform: capitalize;
+    color: hsl(231, 11%, 63%);
+    background-color: transparent;
+}
+
+button.next {
+    padding: 10px 20px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: hsl(213, 96%, 18%);
+    border-radius: 5px;
+}
+
+button.back:hover,
+button.next:hover {
+    cursor: pointer;
+}
+
+button.next:hover {
+    opacity: .8;
+}
+
+button.back:hover {
+    color: hsl(213, 96%, 18%);
+}
+
+
+.label-field-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.field-is-required {
+    font-size: .7rem;
+    font-weight: 700;
+    color: red;
+}

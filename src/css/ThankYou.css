@@ -1,0 +1,26 @@
+.thank-you-form-container {
+    display: grid;
+    place-content: center;
+    height: 60vh;
+    padding: 1.3em;
+}
+
+.thank-you-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.thank-you-text {
+    text-align: center;
+    font-size: 1.4rem;
+    color: hsl(213, 96%, 18%);
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.thank-you-para {
+    font-size: .8rem;
+    color: hsl(231, 11%, 63%);
+    line-height: 23px;
+}

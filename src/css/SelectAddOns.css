@@ -1,0 +1,131 @@
+.add-ons-form-container {
+    padding: 1.5em 2em;
+
+}
+
+.add-ons-form__heading {
+    color: hsl(213, 96%, 18%);
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.add-ons-form__details {
+    font-size: .8rem;
+    color: hsl(231, 11%, 63%);
+    margin-bottom: 2em;
+}
+
+
+/* .add-ons-container {
+    display: flex
+} */
+
+.add-on {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid hsl(229, 24%, 87%);
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.add-on-details {
+    margin-left: 15px;
+}
+
+.add-on-name {
+    font-size: .8rem;
+    font-weight: 500;
+    color: hsl(213, 96%, 18%);
+}
+
+.add-on-desc {
+    font-size: .7rem;
+    color: hsl(231, 11%, 63%);
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.price {
+    font-size: .7rem;
+    color: hsl(243, 100%, 62%);
+    margin-left: auto;
+}
+
+.back-next-btns-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    margin-top: 5em;
+}
+
+
+
+
+.add-on:hover,
+.active-plan {
+    border: 1px solid hsl(243, 100%, 62%);
+    cursor: pointer;
+}
+
+
+
+.checkbox-container>input[type="checkbox"] {
+    display: block;
+}
+
+.checkbox-container>input[type="checkbox"]:checked {
+    background-color: red;
+}
+
+
+
+
+button.back,
+button.next {
+    border: none;
+    font-weight: 700;
+}
+
+button.back {
+    text-transform: capitalize;
+    color: hsl(231, 11%, 63%);
+    background-color: transparent;
+}
+
+button.next {
+    padding: 10px 20px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: hsl(213, 96%, 18%);
+    border-radius: 5px;
+}
+
+button.back:hover,
+button.next:hover {
+    cursor: pointer;
+}
+
+button.next:hover {
+    opacity: .8;
+}
+
+button.back:hover {
+    color: hsl(213, 96%, 18%);
+}
+
+
+.label-field-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.field-is-required {
+    font-size: .7rem;
+    font-weight: 700;
+    color: red;
+}
